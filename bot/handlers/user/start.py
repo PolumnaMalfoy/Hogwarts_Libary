@@ -1,8 +1,8 @@
 from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup
 from aiogram import html
-from bot.keyboards.default.buttons import menu_Buttnos
-from bot.keyboards.inline.register import registrationButton
+from keyboards.default.buttons import menu_Buttnos
+from keyboards.inline.register import registrationButton
 
 from loader import dp
 

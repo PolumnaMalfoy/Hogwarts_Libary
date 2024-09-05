@@ -1,7 +1,7 @@
 from aiogram.types import Message
-from bot.keyboards.default.Products import product
-from bot.keyboards.default.office import office
-from bot.keyboards.default.about_us import us
+from keyboards.default.Products import product
+from keyboards.default.office import office
+from keyboards.default.about_us import us
 
 from loader import dp
 

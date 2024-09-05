@@ -1,11 +1,11 @@
 from aiogram import F
 from aiogram.types import CallbackQuery,Message
 from aiogram.fsm.context import FSMContext
-from bot.states.registration_states import RegistrationStates
-from bot.keyboards.default.num import number_request
-from bot.keyboards.default.loc import location_reques
-from bot.data.register import registration
-from bot.data.config import ADMINS
+from states.registration_states import RegistrationStates
+from keyboards.default.num import number_request
+from keyboards.default.loc import location_reques
+from data.register import registration
+from data.config import ADMINS
 
 from loader import dp,bot
 
